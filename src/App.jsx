@@ -530,7 +530,7 @@ export default function App() {
          return (
             <div className="flex flex-col justify-center items-center h-screen bg-red-50 text-red-700 p-4">
                 <h2 className="text-2xl font-bold mb-4">Error Crítico de Configuración</h2>
-                <p className="text-center">No se pudo inicializar la conexión con la base de datos. Verifica la consola del navegador para más detalles sobre el error.</p>
+                <p className="text-center">No se pudo inicializar la conexión con la base de datos. Verifica la consola del navegador para más detalles.</p>
             </div>
         );
     }
